@@ -1,0 +1,286 @@
+.sobre-mi-skills-container {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  padding-top: 70px;
+  margin-right: 0px;
+  padding-left: 120px;
+  padding-right: 120px;
+  flex-direction: row;
+  padding-bottom: 0px;
+  justify-content: center;
+  background-color: #000000;
+}
+.sobre-mi-skills-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  max-width: 1800px;
+  align-items: flex-start;
+  padding-top: 37px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 37px;
+  justify-content: space-between;
+}
+.sobre-mi-skills-container2 {
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.sobre-mi-skills-sobre-mi {
+  color: #ffff;
+  font-size: 48px;
+  font-family: "Impact";
+  margin-bottom: 29px;
+  letter-spacing: 3%;
+}
+.sobre-mi-skills-container3 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+}
+.sobre-mi-skills-text {
+  color: #7A7A7A;
+  font-size: 18px;
+  max-width: 538px;
+  font-family: "Outfit";
+  margin-right: var(--dl-space-space-twounits);
+  letter-spacing: 1px;
+}
+.sobre-mi-skills-container4 {
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.sobre-mi-skills-skills {
+  color: #ffff;
+  font-size: 48px;
+  font-family: "Impact";
+  letter-spacing: 3%;
+  padding-bottom: 29px;
+}
+.sobre-mi-skills-sv-gimage {
+  gap: 12px;
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 538px;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.sobre-mi-skills-pasted-image {
+  width: 99px;
+  height: 38px;
+}
+.sobre-mi-skills-pasted-image01 {
+  width: 98px;
+  height: 38px;
+}
+.sobre-mi-skills-pasted-image02 {
+  width: 75px;
+  height: 38px;
+}
+.sobre-mi-skills-pasted-image03 {
+  width: 55px;
+  height: 38px;
+}
+.sobre-mi-skills-pasted-image04 {
+  width: 80px;
+  height: 38px;
+}
+.sobre-mi-skills-pasted-image05 {
+  width: 79px;
+  height: 38px;
+}
+.sobre-mi-skills-pasted-image06 {
+  width: 77px;
+  height: 38px;
+}
+.sobre-mi-skills-pasted-image07 {
+  width: 68px;
+  height: 38px;
+}
+.sobre-mi-skills-pasted-image08 {
+  width: 90px;
+  height: 38px;
+}
+.sobre-mi-skills-pasted-image09 {
+  width: 110px;
+  height: 38px;
+}
+.sobre-mi-skills-pasted-image10 {
+  width: 65px;
+  height: 38px;
+}
+.sobre-mi-skills-pasted-image11 {
+  width: 76px;
+  height: 38px;
+}
+.sobre-mi-skills-pasted-image12 {
+  width: 66px;
+  height: 38px;
+}
+.sobre-mi-skills-pasted-image13 {
+  width: 179px;
+  height: 38px;
+}
+.sobre-mi-skills-pasted-image14 {
+  width: 68px;
+  height: 38px;
+}
+.sobre-mi-skills-pasted-image15 {
+  width: 53px;
+  height: 38px;
+  align-self: flex-start;
+}
+.sobre-mi-skills-pasted-image16 {
+  width: 69px;
+  height: 38px;
+}
+
+@media(max-width: 1600px) {
+  .sobre-mi-skills-container {
+    height: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    flex-direction: row;
+  }
+  .sobre-mi-skills-container2 {
+    width: 50%;
+  }
+  .sobre-mi-skills-container4 {
+    width: 50%;
+    flex-direction: column;
+  }
+  .sobre-mi-skills-sv-gimage {
+    flex-wrap: wrap;
+    max-width: 600px;
+  }
+}
+@media(max-width: 1200px) {
+  .sobre-mi-skills-container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .sobre-mi-skills-container1 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media(max-width: 991px) {
+  .sobre-mi-skills-container {
+    gap: 0;
+    width: 982px;
+    height: auto;
+  }
+  .sobre-mi-skills-container1 {
+    flex-direction: column;
+  }
+  .sobre-mi-skills-container2 {
+    width: 100%;
+    margin-top: var(--dl-space-space-threeunits);
+    margin-bottom: var(--dl-space-space-threeunits);
+    flex-direction: column;
+  }
+  .sobre-mi-skills-container3 {
+    width: 100%;
+    align-self: flex-start;
+  }
+  .sobre-mi-skills-text {
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    max-width: 100%;
+    margin-right: 0px;
+  }
+  .sobre-mi-skills-container4 {
+    width: auto;
+    margin-top: var(--dl-space-space-fiveunits);
+    margin-bottom: var(--dl-space-space-fiveunits);
+    flex-direction: column;
+  }
+  .sobre-mi-skills-sv-gimage {
+    width: auto;
+    max-width: 100%;
+    align-self: center;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .sobre-mi-skills-root-class-name {
+    width: 100%;
+  }
+}
+@media(max-width: 767px) {
+  .sobre-mi-skills-container {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .sobre-mi-skills-container2 {
+    align-self: center;
+  }
+  .sobre-mi-skills-sobre-mi {
+    font-size: 30px;
+  }
+  .sobre-mi-skills-text {
+    width: 100%;
+    height: auto;
+    font-size: 18px;
+    max-width: auto;
+  }
+  .sobre-mi-skills-container4 {
+    align-self: center;
+    margin-top: var(--dl-space-space-fourunits);
+  }
+  .sobre-mi-skills-skills {
+    font-size: 30px;
+  }
+  .sobre-mi-skills-sv-gimage {
+    flex-wrap: wrap;
+  }
+  .sobre-mi-skills-root-class-name {
+    width: 100%;
+  }
+}
+@media(max-width: 479px) {
+  .sobre-mi-skills-container {
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+  }
+  .sobre-mi-skills-container1 {
+    gap: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .sobre-mi-skills-sobre-mi {
+    font-size: 25px;
+  }
+  .sobre-mi-skills-text {
+    font-size: 18px;
+    font-style: normal;
+    font-family: Outfit;
+    font-weight: 500;
+  }
+  .sobre-mi-skills-container4 {
+    margin-top: var(--dl-space-space-oneandhalfunits);
+  }
+  .sobre-mi-skills-skills {
+    font-size: 25px;
+  }
+  .sobre-mi-skills-sv-gimage {
+    width: 100%;
+    max-width: auto;
+  }
+}

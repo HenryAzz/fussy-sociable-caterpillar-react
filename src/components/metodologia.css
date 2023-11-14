@@ -1,0 +1,984 @@
+.metodologia-container {
+ 
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  padding-left: 120px;
+  padding-right: 120px;
+  flex-direction: column;
+  background-color: var(--dl-color-gray-black);
+}
+.metodologia-container1 {
+  margin-top: 50px;
+  gap: 20PX;
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  max-width: 1800px;
+  align-self: center;
+  padding-top: 60px;
+  padding-left: 0px;
+  padding-right: 0px;
+  flex-direction: column;
+  padding-bottom: 60px;
+}
+.metodologia-metodologia {
+  color: #ffff;
+  font-size: 32px;
+  font-family: "Outfit";
+  line-height: 2;
+  padding-bottom: 0px;
+}
+.metodologia-container2 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.metodologia-box-scrum {
+  flex: 0 0 auto;
+  width: 24%;
+  height: auto;
+  display: flex;
+  min-height: 306px;
+  align-items: center;
+  flex-direction: column;
+  background-color: #7a7a7a;
+}
+.metodologia-box-scrum-svg {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  min-height: var(--dl-size-size-xsmall);
+  padding-top: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 58px;
+  justify-content: flex-start;
+  background-color: #0B0B0B;
+}
+.metodologia-image {
+  width: 100px;
+  align-self: center;
+  object-fit: cover;
+}
+.metodologia-box-scrum-title {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  min-height: var(--dl-size-size-xsmall);
+  align-items: flex-start;
+  padding-top: 5px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 30px;
+  background-color: #0B0B0B;
+}
+.metodologia-text-scrum-title {
+  color: #ffff;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+}
+.metodologia-box-scrum-p {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 250px;
+  display: flex;
+  min-height: 200px;
+  align-items: flex-start;
+  padding-top: 5px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+  background-color: #0B0B0B;
+}
+.metodologia-text-scrum-p {
+  color: #7A7A7A;
+  font-size: 24px;
+  font-family: "Outfit";
+  letter-spacing: 1px;
+}
+.metodologia-box-git-hub {
+  flex: 0 0 auto;
+  width: 24%;
+  height: auto;
+  display: flex;
+  min-height: 306px;
+  align-items: center;
+  flex-direction: column;
+  background-color: #7a7a7a;
+}
+.metodologia-box-git-hub-svg {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  min-height: var(--dl-size-size-xsmall);
+  padding-top: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 58px;
+  justify-content: flex-start;
+  background-color: #0B0B0B;
+}
+.metodologia-image1 {
+  width: 100px;
+  align-self: center;
+  object-fit: cover;
+}
+.metodologia-box-git-hub-title {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  min-height: var(--dl-size-size-xsmall);
+  align-items: flex-start;
+  padding-top: 5px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 30px;
+  background-color: #0B0B0B;
+}
+.metodologia-text-git-hub-title {
+  color: #ffff;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+}
+.metodologia-box-git-hub-p {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 250px;
+  display: flex;
+  min-height: 200px;
+  align-items: flex-start;
+  padding-top: 5px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+  background-color: #0B0B0B;
+}
+.metodologia-text-git-hub-p {
+  color: #7A7A7A;
+  font-size: 24px;
+  font-family: "Outfit";
+  letter-spacing: 1px;
+}
+.metodologia-box-modularizado {
+  flex: 0 0 auto;
+  width: 24%;
+  height: auto;
+  display: flex;
+  min-height: 306px;
+  align-items: center;
+  flex-direction: column;
+  background-color: #7a7a7a;
+}
+.metodologia-box-modularizado-svg {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  min-height: var(--dl-size-size-xsmall);
+  padding-top: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 58px;
+  justify-content: flex-start;
+  background-color: #0B0B0B;
+}
+.metodologia-image2 {
+  width: 100px;
+  align-self: center;
+  object-fit: cover;
+}
+.metodologia-box-modularizado-title {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  min-height: var(--dl-size-size-xsmall);
+  align-items: flex-start;
+  padding-top: 5px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 30px;
+  background-color: #0B0B0B;
+}
+.metodologia-text-modularizado-title {
+  color: #ffff;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+}
+.metodologia-box-modularizado-p {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 250px;
+  display: flex;
+  min-height: 200px;
+  align-items: flex-start;
+  padding-top: 5px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+  background-color: #0B0B0B;
+}
+.metodologia-text-modularizado-p {
+  color: #7A7A7A;
+  font-size: 24px;
+  font-family: "Outfit";
+  letter-spacing: 1px;
+}
+.metodologia-box-tdd {
+  flex: 0 0 auto;
+  width: 24%;
+  height: auto;
+  display: flex;
+  min-height: 306px;
+  align-items: center;
+  flex-direction: column;
+  background-color: #7a7a7a;
+}
+.metodologia-box-tdd-svg {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  min-height: var(--dl-size-size-xsmall);
+  padding-top: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 58px;
+  justify-content: flex-start;
+  background-color: #0B0B0B;
+}
+.metodologia-image3 {
+  width: 100px;
+  align-self: center;
+  object-fit: cover;
+}
+.metodologia-box-tdd-title {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  min-height: var(--dl-size-size-xsmall);
+  align-items: flex-start;
+  padding-top: 5px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 30px;
+  background-color: #0B0B0B;
+}
+.metodologia-text-tdd-title {
+  color: #ffff;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+}
+.metodologia-box-tdd-p {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 250px;
+  display: flex;
+  min-height: 200px;
+  align-items: flex-start;
+  padding-top: 5px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+  background-color: #0B0B0B;
+}
+.metodologia-text-tdd-p {
+  color: #7A7A7A;
+  font-size: 24px;
+  font-family: "Outfit";
+  letter-spacing: 1px;
+}
+.metodologia-container3 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.metodologia-pasted-image {
+  width: 50px;
+}
+.metodologia-pasted-image01 {
+  width: 50px;
+}
+.metodologia-pasted-image02 {
+  width: 50px;
+}
+.metodologia-pasted-image03 {
+  width: 50px;
+}
+.metodologia-pasted-image04 {
+  width: 50px;
+}
+.metodologia-pasted-image05 {
+  width: 50px;
+}
+.metodologia-pasted-image06 {
+  width: 140px;
+}
+.metodologia-pasted-image07 {
+  width: 140px;
+}
+.metodologia-pasted-image08 {
+  width: 140px;
+}
+.metodologia-container4 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: none;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.metodologia-pasted-image09 {
+  width: 50px;
+}
+.metodologia-pasted-image10 {
+  width: 50px;
+}
+.metodologia-pasted-image11 {
+  width: 50px;
+}
+.metodologia-pasted-image12 {
+  width: 50px;
+}
+.metodologia-pasted-image13 {
+  width: 50px;
+}
+.metodologia-pasted-image14 {
+  width: 50px;
+}
+.metodologia-pasted-image15 {
+  width: 140px;
+}
+.metodologia-pasted-image16 {
+  width: 140px;
+}
+.metodologia-pasted-image17 {
+  width: 140px;
+}
+
+@media(max-width: 1600px) {
+  .metodologia-container {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .metodologia-container1 {
+    gap: 20PX;
+    width: 100%;
+    height: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0x;
+    padding-right: 0x;
+  }
+  .metodologia-metodologia {
+    font-size: 30px;
+    font-style: normal;
+    font-family: Outfit;
+    font-weight: 600;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    text-transform: uppercase;
+  }
+  .metodologia-container2 {
+    justify-content: space-between;
+  }
+  .metodologia-box-scrum {
+    width: 24%;
+    flex-direction: column;
+    background-color: #0B0B0B;
+  }
+  .metodologia-box-scrum-svg {
+    width: 100%;
+    height: auto;
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 58px;
+    justify-content: flex-start;
+  }
+  .metodologia-box-scrum-title {
+    width: 100%;
+    padding-top: 5px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 37px;
+  }
+  .metodologia-box-scrum-p {
+    width: 100%;
+    height: 200px;
+    align-items: flex-start;
+    padding-top: 5px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+  }
+  .metodologia-text-scrum-p {
+    font-size: 18px;
+    font-style: normal;
+    font-family: Outfit;
+    font-weight: 500;
+    padding-left: 0px;
+    letter-spacing: 0;
+  }
+  .metodologia-box-git-hub {
+    width: 24%;
+    flex-direction: column;
+    background-color: #0B0B0B;
+  }
+  .metodologia-box-git-hub-svg {
+    width: 100%;
+    height: auto;
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 58px;
+    justify-content: flex-start;
+  }
+  .metodologia-box-git-hub-title {
+    width: 100%;
+    padding-top: 5px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 37px;
+  }
+  .metodologia-box-git-hub-p {
+    width: 100%;
+    height: 200px;
+    align-items: flex-start;
+    padding-top: 5px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+  }
+  .metodologia-text-git-hub-p {
+    font-size: 18px;
+    font-style: normal;
+    font-family: Outfit;
+    font-weight: 500;
+    padding-left: 0px;
+    letter-spacing: 0;
+  }
+  .metodologia-box-modularizado {
+    width: 24%;
+    flex-direction: column;
+    background-color: #0B0B0B;
+  }
+  .metodologia-box-modularizado-svg {
+    width: 100%;
+    height: auto;
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 58px;
+    justify-content: flex-start;
+  }
+  .metodologia-box-modularizado-title {
+    width: 100%;
+    padding-top: 5px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 37px;
+  }
+  .metodologia-box-modularizado-p {
+    width: 100%;
+    height: 200px;
+    align-items: flex-start;
+    padding-top: 5px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+  }
+  .metodologia-text-modularizado-p {
+    font-size: 18px;
+    font-style: normal;
+    font-family: Outfit;
+    font-weight: 500;
+    padding-left: 0px;
+    letter-spacing: 0;
+  }
+  .metodologia-box-tdd {
+    width: 24%;
+    flex-direction: column;
+    background-color: #0B0B0B;
+  }
+  .metodologia-box-tdd-svg {
+    width: 100%;
+    height: auto;
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 58px;
+    justify-content: flex-start;
+  }
+  .metodologia-box-tdd-title {
+    width: 100%;
+    padding-top: 5px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 37px;
+  }
+  .metodologia-box-tdd-p {
+    width: 100%;
+    height: 200px;
+    align-items: flex-start;
+    padding-top: 5px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+  }
+  .metodologia-text-tdd-p {
+    font-size: 18px;
+    font-style: normal;
+    font-family: Outfit;
+    font-weight: 500;
+    padding-left: 0px;
+    letter-spacing: 0;
+  }
+  .metodologia-container4 {
+    display: none;
+  }
+}
+@media(max-width: 1200px) {
+  .metodologia-container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .metodologia-container1 {
+    gap: 20PX;
+    width: 100%;
+  }
+  .metodologia-metodologia {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    padding-bottom: 0x;
+  }
+  .metodologia-box-scrum-svg {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .metodologia-image {
+    width: 70px;
+  }
+  .metodologia-box-scrum-title {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .metodologia-text-scrum-title {
+    font-size: 20px;
+  }
+  .metodologia-box-scrum-p {
+    height: 190px;
+    min-height: 150px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .metodologia-text-scrum-p {
+    font-size: 14px;
+  }
+  .metodologia-box-git-hub-svg {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .metodologia-image1 {
+    width: 70px;
+  }
+  .metodologia-box-git-hub-title {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .metodologia-text-git-hub-title {
+    font-size: 20px;
+  }
+  .metodologia-box-git-hub-p {
+    height: 190px;
+    min-height: 150px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .metodologia-text-git-hub-p {
+    font-size: 14px;
+  }
+  .metodologia-box-modularizado-svg {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .metodologia-image2 {
+    width: 70px;
+  }
+  .metodologia-box-modularizado-title {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .metodologia-text-modularizado-title {
+    font-size: 20px;
+  }
+  .metodologia-box-modularizado-p {
+    height: 190px;
+    min-height: 150px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .metodologia-text-modularizado-p {
+    font-size: 14px;
+  }
+  .metodologia-box-tdd-svg {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .metodologia-image3 {
+    width: 70px;
+  }
+  .metodologia-box-tdd-title {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .metodologia-text-tdd-title {
+    font-size: 20px;
+  }
+  .metodologia-box-tdd-p {
+    height: 190px;
+    min-height: 150px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .metodologia-text-tdd-p {
+    font-size: 14px;
+  }
+  .metodologia-pasted-image {
+    width: 40px;
+  }
+  .metodologia-pasted-image01 {
+    width: 40px;
+  }
+  .metodologia-pasted-image02 {
+    width: 40px;
+  }
+  .metodologia-pasted-image03 {
+    width: 40px;
+  }
+  .metodologia-pasted-image04 {
+    width: 40px;
+  }
+  .metodologia-pasted-image05 {
+    width: 40px;
+  }
+  .metodologia-pasted-image06 {
+    width: 120px;
+  }
+  .metodologia-pasted-image07 {
+    width: 120px;
+  }
+  .metodologia-pasted-image08 {
+    width: 120px;
+  }
+  .metodologia-container4 {
+    display: none;
+  }
+  .metodologia-pasted-image09 {
+    width: 40px;
+  }
+  .metodologia-pasted-image10 {
+    width: 40px;
+  }
+  .metodologia-pasted-image11 {
+    width: 40px;
+  }
+  .metodologia-pasted-image12 {
+    width: 40px;
+  }
+  .metodologia-pasted-image13 {
+    width: 40px;
+  }
+  .metodologia-pasted-image14 {
+    width: 40px;
+  }
+  .metodologia-pasted-image15 {
+    width: 120px;
+  }
+  .metodologia-pasted-image16 {
+    width: 120px;
+  }
+  .metodologia-pasted-image17 {
+    width: 120px;
+  }
+}
+@media(max-width: 991px) {
+  .metodologia-container1 {
+    height: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .metodologia-metodologia {
+    font-size: 24px;
+    padding-left: 22px;
+    margin-bottom: 20px;
+  }
+  .metodologia-container2 {
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .metodologia-box-scrum {
+    width: 46%;
+  }
+  .metodologia-box-scrum-p {
+    height: auto;
+    min-height: 110px;
+  }
+  .metodologia-box-git-hub {
+    width: 46%;
+  }
+  .metodologia-box-git-hub-p {
+    height: auto;
+    min-height: 110px;
+  }
+  .metodologia-box-modularizado {
+    width: 46%;
+  }
+  .metodologia-box-modularizado-p {
+    height: auto;
+    min-height: 110px;
+  }
+  .metodologia-box-tdd {
+    width: 46%;
+  }
+  .metodologia-box-tdd-p {
+    height: auto;
+    min-height: 110px;
+  }
+  .metodologia-container3 {
+    margin-top: 50px;
+  }
+  .metodologia-pasted-image {
+    width: 50px;
+  }
+  .metodologia-pasted-image01 {
+    width: 50px;
+  }
+  .metodologia-pasted-image02 {
+    width: 50px;
+  }
+  .metodologia-pasted-image03 {
+    width: 50px;
+  }
+  .metodologia-pasted-image04 {
+    width: 50px;
+  }
+  .metodologia-pasted-image05 {
+    width: 50px;
+  }
+  .metodologia-pasted-image06 {
+    width: 100px;
+    display: none;
+  }
+  .metodologia-pasted-image07 {
+    width: 100px;
+    display: none;
+  }
+  .metodologia-pasted-image08 {
+    width: 100px;
+    display: none;
+  }
+  .metodologia-container4 {
+    display: flex;
+  }
+  .metodologia-pasted-image09 {
+    width: 30px;
+    display: none;
+  }
+  .metodologia-pasted-image10 {
+    width: 30px;
+    display: none;
+  }
+  .metodologia-pasted-image11 {
+    width: 30px;
+    display: none;
+  }
+  .metodologia-pasted-image12 {
+    width: 30px;
+    display: none;
+  }
+  .metodologia-pasted-image13 {
+    width: 30px;
+    display: none;
+  }
+  .metodologia-pasted-image14 {
+    width: 30px;
+    display: none;
+  }
+  .metodologia-pasted-image15 {
+    width: 140px;
+  }
+  .metodologia-pasted-image16 {
+    width: 140px;
+  }
+  .metodologia-pasted-image17 {
+    width: 140px;
+  }
+}
+@media(max-width: 767px) {
+  .metodologia-container {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .metodologia-container1 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .metodologia-metodologia {
+    font-size: 20px;
+    padding-left: 0px;
+    margin-bottom: 15px;
+  }
+  .metodologia-box-scrum {
+    width: 100%;
+  }
+  .metodologia-box-scrum-svg {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .metodologia-box-scrum-title {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .metodologia-text-scrum-title {
+    font-size: 22px;
+  }
+  .metodologia-box-scrum-p {
+    min-height: 120px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .metodologia-text-scrum-p {
+    font-size: 18px;
+  }
+  .metodologia-box-git-hub {
+    width: 100%;
+  }
+  .metodologia-box-git-hub-svg {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .metodologia-box-git-hub-title {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .metodologia-text-git-hub-title {
+    font-size: 22px;
+  }
+  .metodologia-box-git-hub-p {
+    min-height: 120px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .metodologia-text-git-hub-p {
+    font-size: 18px;
+  }
+  .metodologia-box-modularizado {
+    width: 100%;
+  }
+  .metodologia-box-modularizado-svg {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .metodologia-box-modularizado-title {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .metodologia-text-modularizado-title {
+    font-size: 22px;
+  }
+  .metodologia-box-modularizado-p {
+    min-height: 120px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .metodologia-text-modularizado-p {
+    font-size: 18px;
+  }
+  .metodologia-box-tdd {
+    width: 100%;
+  }
+  .metodologia-box-tdd-svg {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .metodologia-box-tdd-title {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .metodologia-text-tdd-title {
+    font-size: 22px;
+  }
+  .metodologia-box-tdd-p {
+    min-height: 120px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .metodologia-text-tdd-p {
+    font-size: 18px;
+  }
+}
+@media(max-width: 479px) {
+  .metodologia-container {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .metodologia-container1 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .metodologia-metodologia {
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+  }
+  .metodologia-pasted-image {
+    width: 40px;
+  }
+  .metodologia-pasted-image01 {
+    width: 40px;
+  }
+  .metodologia-pasted-image02 {
+    width: 40px;
+  }
+  .metodologia-pasted-image03 {
+    width: 40px;
+  }
+  .metodologia-pasted-image04 {
+    width: 40px;
+  }
+  .metodologia-pasted-image05 {
+    width: 40px;
+  }
+  .metodologia-pasted-image15 {
+    width: 100px;
+  }
+  .metodologia-pasted-image16 {
+    width: 100px;
+  }
+  .metodologia-pasted-image17 {
+    width: 100px;
+  }
+}

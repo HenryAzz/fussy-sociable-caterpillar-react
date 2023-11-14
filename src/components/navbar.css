@@ -1,0 +1,218 @@
+.navbar-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  border-color: rgba(151, 229, 24, 0);
+  border-style: hidden;
+  border-width: 5px;
+  flex-direction: column;
+  background-color: var(--dl-color-gray-black);
+  z-index: 1000; /* Asegura que esté en la parte superior del apilamiento */
+}
+.navbar-headerbg {
+  gap: 204px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  max-width: 1800px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  justify-content: space-between;
+  background-color: #000000
+}
+.navbar-headerlogo {
+  gap: 10px;
+  height: 90px;
+  display: flex;
+  padding: 30px 24px;
+  align-items: center;
+  flex-shrink: 0;
+}
+.navbar-text {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 18px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+.navbar-rightmenulist {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.navbar-menulist1 {
+  gap: 10px;
+  height: 90px;
+  display: flex;
+  padding: 30px 24px;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.navbar-text02 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Outfit;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.navbar-menulist2 {
+  gap: 10px;
+  height: 90px;
+  display: flex;
+  padding: 30px 24px;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.navbar-text04 {
+  color: rgba(122, 122, 122, 1);
+  height: auto;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Outfit;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.navbar-menulist3 {
+  gap: 10px;
+  height: 90px;
+  display: none;
+  padding: 30px 24px;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.navbar-text06 {
+  color: rgba(122, 122, 122, 1);
+  height: auto;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Outfit;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.navbar-menulist6 {
+  gap: 10px;
+  height: 90px;
+  display: flex;
+  padding: 30px 24px;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.navbar-text08 {
+  color: rgba(122, 122, 122, 1);
+  height: auto;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Outfit;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.navbar-menulist4 {
+  gap: 10px;
+  height: 90px;
+  display: flex;
+  padding: 30px 24px;
+  align-items: center;
+  flex-shrink: 0;
+  padding-right: 30px 24px;
+  justify-content: center;
+}
+.navbar-downloadresumecta {
+  gap: 10px;
+  display: flex;
+  padding: 13px 32px;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+.navbar-text10 {
+  color: rgba(10, 10, 10, 1);
+  height: auto;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Outfit;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+@media(max-width: 1600px) {
+  .navbar-downloadresumecta {
+    padding: 13px 32px;
+    border-radius: var(--dl-radius-radius-radius8);
+  }
+  .navbar-text10 {
+    top: -4px;
+    left: -3px;
+    color: rgb(10, 10, 10);
+    position: static;
+    font-size: 18px;
+    font-family: Outfit;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+  }
+}
+@media(max-width: 1200px) {
+  .navbar-text {
+    letter-spacing: 2px;
+  }
+  .navbar-downloadresumecta {
+    border-radius: var(--dl-radius-radius-radius8);
+  }
+}
+@media(max-width: 991px) {
+  .navbar-headerlogo {
+    display: none;
+  }
+  .navbar-rightmenulist {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .navbar-downloadresumecta {
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+    border-radius: var(--dl-radius-radius-radius8);
+  }
+}
+@media(max-width: 767px) {
+  .navbar-rightmenulist {
+    justify-content: space-between;
+  }
+  .navbar-menulist1 {
+    display: none;
+  }
+  .navbar-menulist3 {
+    display: none;
+  }
+}

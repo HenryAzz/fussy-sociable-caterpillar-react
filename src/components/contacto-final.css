@@ -1,0 +1,210 @@
+.contacto-final-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  padding-top: 120px;
+  padding-left: 120px;
+  padding-right: 120px;
+  flex-direction: column;
+  padding-bottom: 20px;
+  background-color: var(--dl-color-gray-black);
+}
+.contacto-final-container1 {
+  gap: 50px;
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  max-width: 1120px;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contacto-final-container2 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.contacto-final-presentacion-tarjeta {
+  width: auto;
+  font-size: 72px;
+  font-family: "Outfit";
+  background-color: var(--dl-color-gray-black);
+}
+.contacto-final-container3 {
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  justify-content: flex-end;
+}
+.contacto-final-image {
+  width: 200px;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  object-fit: cover;
+}
+.contacto-final-container4 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+}
+.contacto-final-p-presentacion {
+  color: #7A7A7A;
+  width: 60%;
+  font-size: 22px;
+}
+.contacto-final-container5 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.contacto-final-container6 {
+  gap: 15px;
+  flex: 0 0 auto;
+  width: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.contacto-final-p-mail-a {
+  color: #7A7A7A;
+  height: auto;
+  font-size: 22px;
+}
+.contacto-final-p-mail-b {
+  color: #7A7A7A;
+  font-size: 24px;
+}
+.contacto-final-container7 {
+  gap: var(--dl-space-space-threeunits);
+  flex: 0 0 auto;
+  width: 50%;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  justify-content: flex-end;
+}
+@media(max-width: 1600px) {
+  .contacto-final-container3 {
+    padding-left: 0px;
+  }
+  .contacto-final-container7 {
+    padding-left: var(--dl-space-space-fourunits);
+    padding-right: var(--dl-space-space-fourunits);
+  }
+}
+@media(max-width: 1200px) {
+  .contacto-final-presentacion-tarjeta {
+    font-size: 60px;
+  }
+  .contacto-final-container3 {
+    padding-right: var(--dl-space-space-unit);
+  }
+  .contacto-final-image {
+    width: 150px;
+  }
+}
+@media(max-width: 991px) {
+  .contacto-final-container {
+    width: 901px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .contacto-final-presentacion-tarjeta {
+    font-size: 50px;
+  }
+  .contacto-final-container3 {
+    padding-right: 0px;
+  }
+  .contacto-final-image {
+    width: 150px;
+  }
+  .contacto-final-p-presentacion {
+    font-size: 20px;
+  }
+  .contacto-final-p-mail-a {
+    font-size: 18px;
+  }
+  .contacto-final-p-mail-b {
+    font-size: 20px;
+  }
+  .contacto-final-container7 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+@media(max-width: 767px) {
+  .contacto-final-container {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .contacto-final-presentacion-tarjeta {
+    width: auto;
+    font-size: 30px;
+  }
+  .contacto-final-container3 {
+    position: relative;
+  }
+  .contacto-final-image {
+    width: 100px;
+  }
+  .contacto-final-p-presentacion {
+    width: 100%;
+    font-size: 18px;
+    max-width: auto;
+    text-align: left;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .contacto-final-container6 {
+    gap: 8px;
+  }
+  .contacto-final-p-mail-a {
+    font-size: 16px;
+  }
+  .contacto-final-p-mail-b {
+    font-size: 18px;
+  }
+  .contacto-final-container7 {
+    justify-content: center;
+  }
+  .contacto-final-pasted-image {
+    width: 23px;
+  }
+  .contacto-final-pasted-image1 {
+    width: 22px;
+  }
+  .contacto-final-pasted-image2 {
+    height: 20px;
+  }
+}
+@media(max-width: 479px) {
+  .contacto-final-container {
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+  }
+  .contacto-final-presentacion-tarjeta {
+    width: auto;
+    font-size: 26px;
+  }
+  .contacto-final-image {
+    width: 70px;
+  }
+  .contacto-final-p-presentacion {
+    font-family: Poppins;
+  }
+}
